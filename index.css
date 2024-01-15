@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.card1 {
+    grid-area: card1;
+    background-image: url("./free-nature-images.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card2 {
+    grid-area: card2;
+    background-image: url("./maxresdefault.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 {
+    grid-area: card3;
+   background-image: url("./painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card4 {
+    grid-area: card4;
+    background-image: url("./flowers-276014_640.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card5 {
+    grid-area: card5;
+    background-image: url("./pexels-james-wheeler-417074.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card6 {
+    grid-area: card6;
+    background-image: url("./nature-1686808887.jpg");    
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card7 {
+    grid-area: card7;
+    background-image: url("./connectwithnature.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card8 {
+    grid-area: card8;
+    background-image: url("./close-up-growing-beautiful-forest-in-glass-ball-and-flying-butterflies-in-nature-outdoors-spring-season-concept-generative-ai-photo.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card_group1 {
+    display: grid;
+    grid-area: card_group1;
+    grid-template-areas: "card1"
+        "card1"
+        "card2";
+    grid-gap: 20px;
+}
+
+.card_group2 {
+    display: grid;
+    grid-area: card_group2;
+    grid-template-areas: "card3"
+        "card4"
+        "card4";
+    grid-gap: 20px;
+}
+
+.card_group3 {
+    display: grid;
+    grid-area: card_group3;
+    grid-template-areas: "card5 card5"
+        "card6 card7"
+        "card8 card8";
+    grid-gap: 20px;
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "card_group1 card_group2 card_group3";
+    grid-gap: 20px;
+}
